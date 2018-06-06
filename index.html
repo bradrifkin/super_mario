@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Super Mario animation with jQuery</title>
+	<link href='http://fonts.googleapis.com/css?family=Bangers|Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="ryu-container">
+			<div class="ryu">
+				<div class="ryu-still ryu-action"></div>
+				<div class="ryu-ready ryu-action"></div>
+				<div class="ryu-throwing ryu-action"></div>
+				<div class="ryu-cool ryu-action"></div>
+			</div>
+			<div class="hadouken"></div>
+		</div>
+		<div class="text-content">
+			<div class="sf-logo"></div>
+			<div class="jquery-logo"></div>
+			<div class="brought-by">
+				sponsored by...
+			</div>
+			<div class="how-to">
+				<h1>How to Interact with Mario</h1>
+				<p><i class="fa fa-cog"></i> Press any of the arrow keys to move him.</p>
+				<p><i class="fa fa-cog"></i> Press the space bar to make him jump.</p>
+				<p><i class="fa fa-cog"></i> Click on him to hear his greeting.</p>
+				<p><i class="fa fa-cog"></i> Press and hold down the "s" key to make him invincible!</p> 
+				<p>- OR -</p>
+				<p><i class="fa fa-cog"></i> Transport him to a new level!</p>
+				<ol>
+					<li>Press "1" to send him to the Field Level</li>
+					<li>Press "2" to send him to the Desert Level</li>
+					<li>Press "3" to send him to the Coast Level</li>
+				</ol>
+				<p id="hide">Press the "h" key to hide/show these instructions</p>
+			</div>
+		</div>
+	</div>
+	<audio id="theme-song" src="sound/smw.mp3"></audio>
+	<audio id="me-mario-sound" src="sound/me-mario.mp3"></audio>
+	<audio id="cool" src="sound/mario-star.mp3"></audio>
+	<audio id="jump" src="sound/jump.mp3"></audio>
+	<audio id="grass" src="sound/grass.mp3"></audio>
+	<audio id="desert" src="sound/desert.mp3"></audio>
+	<audio id="island" src="sound/island.mp3"></audio>
+</body>
+</html>
